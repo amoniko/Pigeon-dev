@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="font_icon/iconfont.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+      	mui.plusReady(function(){
+// 		plus.navigator.setStatusBarStyle("light");
+   		//必须用hex码
+      	plus.navigator.setStatusBarBackground("6495ED");
+      	});
+    </script>
+</head>
+<body>
+
+	<header class="mui-bar mui-bar-nav title">
+	    <h1 class="mui-title title-color"><b>鸽信</b></h1>
+	</header>
+	
+	<nav class="mui-bar mui-bar-tab">
+		
+	    <a class="mui-tab-item mui-active" tabindex="0">
+	        <span class="mui-icon iconfont icon-twiter"></span>
+	        <span class="mui-tab-label">鸽谁</span>
+	    </a>
+	    
+	    <a class="mui-tab-item" tabindex="1">
+	        <span class="mui-icon iconfont icon-yiyuan-gezi"></span>
+	        <span class="mui-tab-label">有谁可以鸽</span>
+	    </a>
+	    
+	    <a class="mui-tab-item" tabindex="2">
+	        <span class="mui-icon iconfont icon-niaochao"></span>
+	        <span class="mui-tab-label">谁被鸽了</span>
+	    </a>
+	    
+	    <a class="mui-tab-item" tabindex="3">
+	        <span class="mui-icon iconfont icon-niaowo_"></span>
+	        <span class="mui-tab-label">我的窝</span>
+	    </a>
+	</nav>
+	
+	<script type="text/javascript">
+	
+	 var pigeonArray = [
+	 		{
+			pageId: "pigeon-chatlist.html", 
+			pageUrl: "pigeon-chatlist.html"
+	 		},
+	 		{
+			pageId: "pigeon-contact.html", 
+			pageUrl: "pigeon-contact.html"
+	 		},
+	 		{
+			pageId: "pigeon-discover.html", 
+			pageUrl: "pigeon-discover.html"
+	 		},
+	 		{
+			pageId: "pigeon-me.html", 
+			pageUrl: "pigeon-me.html"
+	 		}
+	 ];
+	 
+	 var pigeonStyle = {
+	 	top: "44px",
+	 	bottom:"50px"
+	 }
+	 
+	 mui.plusReady(function(){
+	 	
+	 	// 获取当前webview对象
+	 	var indexWebview = plus.webview.currentWebview()
+	 	
+	 	// 向当前的主页webview追加子页的4张webview对象
+	 	for(var i = 0 ; i < pigeonArray.length ; i++){
+	 		var pigeonPage = plus.webview.create(pigeonArray[i].pageUrl, pigeonArray[i].pageId, pigeonStyle);
+	 		//隐藏webview窗口
+	 		pigeonPage.hide();
+	 		//追加每一个子页面到当前主页面
+	 		indexWebview.append(pigeonPage);
+	 	} 
+	 	plus.webview.show(pigeonArray[0].pageId);
+	 	
+	 	
+	 	// 批量绑定tap事件，展示不同的页面
+	 	mui(".mui-bar-tab").on("tap", "a", function(){
+	 		var tabindex = this.getAttribute("tabindex");
+	 		
+	 		//显示点击的tab选项所对应的页面
+	 		plus.webview.show(pigeonArray[tabindex].pageId, "fade-in", 200);
+	 		
+	 		//隐藏其他不需要的页面
+	 		for(var i = 0 ; i < pigeonArray.length ; i++){
+	 		if(i != tabindex){
+	 			plus.webview.hide(pigeonArray[i].pageId, "fade-out", 200);
+	 		}
+	 	} 
+	 		
+	 	})
+	 })
+	 
+	 
+	
+	</script>
+	
+</body>
+</html>
