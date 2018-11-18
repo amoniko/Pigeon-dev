@@ -1,5 +1,6 @@
 package com.pigeon.controller;
 
+import com.enums.SearchFriendsStatusEnum;
 import com.pigeon.pojo.Users;
 import com.pigeon.pojo.bo.UsersBO;
 import com.pigeon.pojo.vo.UsersVO;
@@ -111,6 +112,62 @@ public class UserController {
 
 		return PigeonJSONResult .ok(result);
 	}
+
+	/**
+	 * 根据账号做匹配查询，而不是模糊查询
+	 */
+
+	@PostMapping("/search")
+	public PigeonJSONResult searchUser(String myUserId, String friendUsername) throws Exception{
+
+		// 0. 判断传入参数不能为空
+		if (StringUtils.isBlank(myUserId)
+				|| StringUtils.isBlank(friendUsername)){
+			return PigeonJSONResult.errorMsg("");
+		}
+
+		// 1.搜索的用户如果不存在，返回【无此用户】
+		// 2.搜索的用户如果是你自己，返回【不可以添加自己】
+		// 3.搜索的用户如果已经是你的好友，返回【该用户已经是你的好友】
+		Integer status = userService.preconditionSearchFriends(myUserId, friendUsername);
+		if(status == SearchFriendsStatusEnum.SUCCESS.status){
+			Users user = userService.queryUserInfoByUsername(friendUsername);
+			UsersVO userVO = new UsersVO();
+			BeanUtils.copyProperties(user, userVO);
+			return PigeonJSONResult .ok(userVO);
+
+		}else{
+			String errorMsg = SearchFriendsStatusEnum.getMsgByKey(status);
+			return  PigeonJSONResult.errorMsg(errorMsg);
+		}
+	}
+
+    /**
+     * add friends request
+     */
+    @PostMapping("/addFriendRequest")
+    public PigeonJSONResult addFriendRequest(String myUserId, String friendUsername) throws Exception{
+
+        // 0. 判断传入参数不能为空
+        if (StringUtils.isBlank(myUserId)
+                || StringUtils.isBlank(friendUsername)){
+            return PigeonJSONResult.errorMsg("");
+        }
+
+        // 1.搜索的用户如果不存在，返回【无此用户】
+        // 2.搜索的用户如果是你自己，返回【不可以添加自己】
+        // 3.搜索的用户如果已经是你的好友，返回【该用户已经是你的好友】
+        Integer status = userService.preconditionSearchFriends(myUserId, friendUsername);
+        if(status == SearchFriendsStatusEnum.SUCCESS.status){
+            userService.sendFriendRequest(myUserId, friendUsername);
+
+        }else{
+            String errorMsg = SearchFriendsStatusEnum.getMsgByKey(status);
+            return  PigeonJSONResult.errorMsg(errorMsg);
+        }
+
+        return PigeonJSONResult.ok();
+    }
 
 
 }

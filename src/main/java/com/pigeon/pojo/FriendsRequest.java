@@ -1,6 +1,7 @@
 package com.pigeon.pojo;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Table(name = "friends_request")
 public class FriendsRequest {
@@ -14,7 +15,7 @@ public class FriendsRequest {
     private String acceptUserId;
 
     @Column(name = "request_date_time")
-    private String requestDateTime;
+    private Date requestDateTime;
 
     /**
      * @return id
@@ -61,14 +62,14 @@ public class FriendsRequest {
     /**
      * @return request_date_time
      */
-    public String getRequestDateTime() {
+    public Date getRequestDateTime() {
         return requestDateTime;
     }
 
     /**
      * @param requestDateTime
      */
-    public void setRequestDateTime(String requestDateTime) {
+    public void setRequestDateTime(Date requestDateTime) {
         this.requestDateTime = requestDateTime;
     }
 }
