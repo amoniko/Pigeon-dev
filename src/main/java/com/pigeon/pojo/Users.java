@@ -20,7 +20,7 @@ public class Users {
 
     private String qrcode;
 
-    private Integer cid;
+    private String cid;
 
     /**
      * @return id
@@ -123,14 +123,16 @@ public class Users {
     /**
      * @return cid
      */
-    public Integer getCid() {
+    public String getCid() {
         return cid;
     }
 
     /**
      * @param cid
      */
-    public void setCid(Integer cid) {
+    public void setCid(String cid) {
         this.cid = cid;
     }
+
+
 }
