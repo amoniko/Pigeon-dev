@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b88baa57-8fb4-478e-823a-aa68af77d70b" name="Default Changelist" comment="完成个人信息页面的后端开发。现在鸽信用户在注册成功时会获得唯一二维码。可以自定义昵称，头像。&#10;backend coding for user info page is completed. New pigeon users get unique Qrcode when signing up. All users can modify their nicknames and profile pics.">
+    <list default="true" id="b88baa57-8fb4-478e-823a-aa68af77d70b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,6 +82,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
+          <entry key="html" value="2" />
           <entry key="java" value="54" />
           <entry key="properties" value="5" />
           <entry key="xml" value="5" />
@@ -90,6 +91,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="JAVA" value="54" />
           <entry key="Properties" value="5" />
           <entry key="XML" value="5" />
@@ -100,14 +102,14 @@
           <entry key="dummy" value="2" />
           <entry key="java" value="1603" />
           <entry key="properties" value="2" />
-          <entry key="txt" value="251" />
+          <entry key="txt" value="335" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1603" />
-          <entry key="PLAIN_TEXT" value="253" />
+          <entry key="PLAIN_TEXT" value="337" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="5" />
         </counts>
@@ -158,7 +160,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/utils/FileUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -170,20 +172,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="-318">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+            <state relative-caret-position="247">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -330,65 +332,7 @@
               <item name="Pigeon-dev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pigeon-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pigeon-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pigeon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pigeon-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pigeon" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pigeon-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pigeon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pigeon-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pigeon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pigeon-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pigeon" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
@@ -396,6 +340,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pigeon-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="registLogin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pigeon-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="mui.css" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -422,7 +385,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542531771030" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542531961832" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -521,7 +484,7 @@
       <workItem from="1542264246522" duration="770000" />
       <workItem from="1542416668250" duration="19123000" />
       <workItem from="1542460089653" duration="1073000" />
-      <workItem from="1542521938585" duration="8600000" />
+      <workItem from="1542521938585" duration="8774000" />
     </task>
     <task id="LOCAL-00001" summary="完成个人信息页面的后端开发。现在鸽信用户在注册成功时会获得唯一二维码。可以自定义昵称，头像。&#10;backend coding for user info page is completed. New pigeon users get unique Qrcode when signing up. All users can modify their nicknames and profile pics.">
       <created>1542530698256</created>
@@ -530,11 +493,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542530698256</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete some useless file. will commit front end files soon. MUI works.">
+      <created>1542531873149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542531873149</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57583000" />
+    <option name="totallyTimeSpent" value="57757000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -592,7 +562,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成个人信息页面的后端开发。现在鸽信用户在注册成功时会获得唯一二维码。可以自定义昵称，头像。" />
     <MESSAGE value="完成个人信息页面的后端开发。现在鸽信用户在注册成功时会获得唯一二维码。可以自定义昵称，头像。&#10;backend coding for user info page is completed. New pigeon users get unique Qrcode when signing up. All users can modify their nicknames and profile pics." />
-    <option name="LAST_COMMIT_MESSAGE" value="完成个人信息页面的后端开发。现在鸽信用户在注册成功时会获得唯一二维码。可以自定义昵称，头像。&#10;backend coding for user info page is completed. New pigeon users get unique Qrcode when signing up. All users can modify their nicknames and profile pics." />
+    <MESSAGE value="delete some useless file. will commit front end files soon. MUI works." />
+    <option name="LAST_COMMIT_MESSAGE" value="delete some useless file. will commit front end files soon. MUI works." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -747,20 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -951,6 +908,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1425">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
