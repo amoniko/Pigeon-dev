@@ -1,160 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b88baa57-8fb4-478e-823a-aa68af77d70b" name="Default Changelist" comment="完成个人信息页面的后端开发。现在鸽信用户在注册成功时会获得唯一二维码。可以自定义昵称，头像。">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/FastdfsImporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/pojo/bo/UsersBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/utils/FastDFSClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/utils/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/utils/QRCodeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="b88baa57-8fb4-478e-823a-aa68af77d70b" name="Default Changelist" comment="完成个人信息页面的后端开发。现在鸽信用户在注册成功时会获得唯一二维码。可以自定义昵称，头像。&#10;backend coding for user info page is completed. New pigeon users get unique Qrcode when signing up. All users can modify their nicknames and profile pics.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigeon/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigeon/pojo/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/pojo/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigeon/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigeon/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/font_icon/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/font_icon/demo_fontclass.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/font_icon/demo_symbol.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/font_icon/demo_unicode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/font_icon/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/font_icon/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/font_icon/iconfont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/font_icon/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/font_icon/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/font_icon/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fonts/mui.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/addfriends.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/download.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/face-default-cat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/friends.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/givememoney.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/good.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/qrcode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/scanscan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/upload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/js/mui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/js/mui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ChatMsgMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/FriendsRequestMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/MyFriendsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.niko/pigeon/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.niko/pigeon/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/PigeonApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/PigeonApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mybatis/utils/GeneratorDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybatis/utils/GeneratorDisplay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/NettyBooter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/NettyBooter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/netty/ChatHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/netty/ChatHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/netty/WSServerInitialzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/netty/WSServerInitialzer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/pojo/ChatMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/pojo/ChatMsg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/pojo/FriendsRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/pojo/FriendsRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/pojo/MyFriends.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/pojo/MyFriends.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/pojo/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/pojo/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/pojo/vo/UsersVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/pojo/vo/UsersVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/utils/JsonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/utils/JsonUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/utils/MD5Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/utils/MD5Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/utils/PigeonJSONResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/utils/PigeonJSONResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/font_icon/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/font_icon/demo_fontclass.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/font_icon/demo_symbol.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/font_icon/demo_unicode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/font_icon/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/font_icon/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/font_icon/iconfont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/font_icon/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/font_icon/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/font_icon/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fonts/mui.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/addfriends.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/download.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/face-default-cat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/friends.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/givememoney.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/good.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/qrcode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/scanscan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/upload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/mui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/mui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ChatMsgMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/FriendsRequestMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/MyFriendsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UsersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/Code.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/Code.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/Id.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/Id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/IdWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/IdWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/InvalidSystemClock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/InvalidSystemClock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/Sid$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/Sid$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/Sid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/Sid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/strategy/FileLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/strategy/FileLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/utils/HttpReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/utils/HttpReq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/utils/IPv4Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/utils/IPv4Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/utils/Props$Silent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/utils/Props$Silent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/utils/Props.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/utils/Props.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/utils/Serializes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/utils/Serializes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/n3r/idworker/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/n3r/idworker/utils/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/css/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/css/mui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/css/mui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/css/registLogin/epicniko.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/css/registLogin/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/css/registLogin/util.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/font_icon/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/font_icon/demo_fontclass.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/font_icon/demo_symbol.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/font_icon/demo_unicode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/font_icon/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/font_icon/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/font_icon/iconfont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/font_icon/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/font_icon/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/font_icon/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/fonts/mui.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/image/addfriends.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/image/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/image/download.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/image/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/image/face-default-cat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/image/friends.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/image/givememoney.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/image/good.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/image/qrcode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/image/scanscan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/image/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/image/upload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/js/mui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/js/mui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/pigeon-chatlist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/pigeon-contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/pigeon-discover.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/pigeon-me.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/unpackage/.confirmed_dependencies" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/unpackage/.dependencies" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -252,14 +100,14 @@
           <entry key="dummy" value="2" />
           <entry key="java" value="1603" />
           <entry key="properties" value="2" />
-          <entry key="txt" value="58" />
+          <entry key="txt" value="251" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1603" />
-          <entry key="PLAIN_TEXT" value="60" />
+          <entry key="PLAIN_TEXT" value="253" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="5" />
         </counts>
@@ -280,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="44" column="15" lean-forward="true" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="45" />
+            <state relative-caret-position="161">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -310,11 +158,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/utils/FileUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="198">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -426,13 +274,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pigeon/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pigeon/pojo/bo/UsersBO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/FastdfsImporter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/utils/FileUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pigeon/utils/FastDFSClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pigeon/utils/QRCodeUtils.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/pigeon/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/pigeon/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/utils/FileUtils.java" />
       </list>
     </option>
   </component>
@@ -574,14 +422,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542530554343" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542531771030" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -673,16 +521,32 @@
       <workItem from="1542264246522" duration="770000" />
       <workItem from="1542416668250" duration="19123000" />
       <workItem from="1542460089653" duration="1073000" />
-      <workItem from="1542521938585" duration="7518000" />
+      <workItem from="1542521938585" duration="8600000" />
     </task>
+    <task id="LOCAL-00001" summary="完成个人信息页面的后端开发。现在鸽信用户在注册成功时会获得唯一二维码。可以自定义昵称，头像。&#10;backend coding for user info page is completed. New pigeon users get unique Qrcode when signing up. All users can modify their nicknames and profile pics.">
+      <created>1542530698256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542530698256</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56501000" />
+    <option name="totallyTimeSpent" value="57583000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -690,14 +554,14 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.16018766" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.19906166" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32998565" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50067025" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
-      <window_info active="true" anchor="bottom" id="Messages" order="3" visible="true" weight="0.32340425" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32340425" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Spring" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3286119" />
@@ -705,7 +569,7 @@
       <window_info anchor="bottom" id="Debug" order="10" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="TODO" order="13" sideWeight="0.49932975" weight="0.32907802" />
       <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.28652483" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Maven Projects" order="1" />
@@ -727,7 +591,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成个人信息页面的后端开发。现在鸽信用户在注册成功时会获得唯一二维码。可以自定义昵称，头像。" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成个人信息页面的后端开发。现在鸽信用户在注册成功时会获得唯一二维码。可以自定义昵称，头像。" />
+    <MESSAGE value="完成个人信息页面的后端开发。现在鸽信用户在注册成功时会获得唯一二维码。可以自定义昵称，头像。&#10;backend coding for user info page is completed. New pigeon users get unique Qrcode when signing up. All users can modify their nicknames and profile pics." />
+    <option name="LAST_COMMIT_MESSAGE" value="完成个人信息页面的后端开发。现在鸽信用户在注册成功时会获得唯一二维码。可以自定义昵称，头像。&#10;backend coding for user info page is completed. New pigeon users get unique Qrcode when signing up. All users can modify their nicknames and profile pics." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1045,16 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/utils/FileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1081,8 +936,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="44" column="15" lean-forward="true" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="45" />
+        <state relative-caret-position="161">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/utils/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
