@@ -19,7 +19,7 @@
         socket:null,
         init:function(){
             if(window.WebSocket){
-                CHAT.socket = new WebSocket("ws://192.168.56.1:8088/ws");
+                CHAT.socket = new WebSocket("ws://172.20.10.5:8088/ws");
 
                 CHAT.socket.onopen = function(){
                     console.log("Connection Established..");

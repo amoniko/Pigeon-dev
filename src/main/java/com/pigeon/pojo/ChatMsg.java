@@ -1,7 +1,9 @@
 package com.pigeon.pojo;
 
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
-import javax.persistence.*;
 
 @Table(name = "chat_msg")
 public class ChatMsg {
@@ -11,16 +13,25 @@ public class ChatMsg {
     @Column(name = "send_user_id")
     private String sendUserId;
 
+    @Column(name = "accept_user_id")
+    private String acceptUserId;
+
     private String msg;
 
+    /**
+     * 消息是否签收状态
+     1：签收
+     0：未签收
+
+     */
     @Column(name = "sign_flag")
     private Integer signFlag;
 
+    /**
+     * 发送请求的事件
+     */
     @Column(name = "create_time")
     private Date createTime;
-
-    @Column(name = "accept_user_id")
-    private byte[] acceptUserId;
 
     /**
      * @return id
@@ -51,6 +62,20 @@ public class ChatMsg {
     }
 
     /**
+     * @return accept_user_id
+     */
+    public String getAcceptUserId() {
+        return acceptUserId;
+    }
+
+    /**
+     * @param acceptUserId
+     */
+    public void setAcceptUserId(String acceptUserId) {
+        this.acceptUserId = acceptUserId;
+    }
+
+    /**
      * @return msg
      */
     public String getMsg() {
@@ -65,44 +90,50 @@ public class ChatMsg {
     }
 
     /**
-     * @return sign_flag
+     * 获取消息是否签收状态
+     1：签收
+     0：未签收
+
+     *
+     * @return sign_flag - 消息是否签收状态
+    1：签收
+    0：未签收
+
      */
     public Integer getSignFlag() {
         return signFlag;
     }
 
     /**
-     * @param signFlag
+     * 设置消息是否签收状态
+     1：签收
+     0：未签收
+
+     *
+     * @param signFlag 消息是否签收状态
+    1：签收
+    0：未签收
+
      */
     public void setSignFlag(Integer signFlag) {
         this.signFlag = signFlag;
     }
 
     /**
-     * @return create_time
+     * 获取发送请求的事件
+     *
+     * @return create_time - 发送请求的事件
      */
     public Date getCreateTime() {
         return createTime;
     }
 
     /**
-     * @param createTime
+     * 设置发送请求的事件
+     *
+     * @param createTime 发送请求的事件
      */
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
-    }
-
-    /**
-     * @return accept_user_id
-     */
-    public byte[] getAcceptUserId() {
-        return acceptUserId;
-    }
-
-    /**
-     * @param acceptUserId
-     */
-    public void setAcceptUserId(byte[] acceptUserId) {
-        this.acceptUserId = acceptUserId;
     }
 }

@@ -7,11 +7,12 @@ import io.netty.handler.codec.http.HttpObjectAggregator;
 import io.netty.handler.codec.http.HttpServerCodec;
 import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler;
 import io.netty.handler.stream.ChunkedWriteHandler;
+import io.netty.handler.timeout.IdleStateHandler;
 
 public class WSServerInitialzer extends ChannelInitializer<SocketChannel> {
 
 	@Override
-	protected void initChannel(SocketChannel ch) throws Exception {
+	protected void initChannel(SocketChannel ch)  {
 		ChannelPipeline pipeline = ch.pipeline();
 		
 		// websocket 基于http协议，所以要有http编解码器
@@ -23,10 +24,17 @@ public class WSServerInitialzer extends ChannelInitializer<SocketChannel> {
 		pipeline.addLast(new HttpObjectAggregator(1024*64));
 		
 		// ====================== 以上是用于支持http协议    ======================
-		
-		
-		
 
+
+		// ======================  增加心跳支持start    ======================
+			//针对客户端，如果在1分钟时没有向服务端发送读写心跳（All），则主动断开，其余不做处理。
+			pipeline.addLast(new
+					IdleStateHandler(8, 10 ,12));
+
+			//自定义的空闲状态检测
+
+			pipeline.addLast(new HeartBeatHandler());
+		// ======================  增加心跳支持end     ======================
 		
 		// ====================== 以下是支持httpWebsocket ======================
 		

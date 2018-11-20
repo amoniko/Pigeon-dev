@@ -1,26 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b88baa57-8fb4-478e-823a-aa68af77d70b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/enums/SearchFriendsStatusEnum.java" afterDir="false" />
+    <list default="true" id="b88baa57-8fb4-478e-823a-aa68af77d70b" name="Default Changelist" comment="完成通讯录，发现页面，以及聊天业务开发。鸽信1.00完成">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/enums/MsgActionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/enums/MsgSignFlagEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/enums/OperatorFriendRequestTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/mapper/UsersMapperCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/netty/ChatMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/netty/DataContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/netty/HeartBeatHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/netty/UserChannelRel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/pojo/vo/FriendRequestVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/pojo/vo/MyFriendsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ChatMsgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/FriendsRequestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/MyFriendsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UsersMapperCustom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuck mui.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/PigeonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PigeonApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pigeon/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigeon/pojo/FriendsRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/pojo/FriendsRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigeon/netty/ChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/netty/ChatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigeon/netty/WSServerInitialzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/netty/WSServerInitialzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigeon/pojo/ChatMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/pojo/ChatMsg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pigeon/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pigeon/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigeon/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/PigeonApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/PigeonApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/netty/ChatHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/netty/ChatHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/netty/WSServerInitialzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/netty/WSServerInitialzer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/pojo/ChatMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/pojo/ChatMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/pojo/FriendsRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/pojo/FriendsRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pigeon/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pigeon/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/mui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/mui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/registLogin/epicniko.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/registLogin/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/registLogin/util.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,50 +104,53 @@
     <session id="-179439726">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Niko" value="1" />
           <entry key="class" value="1" />
-          <entry key="html" value="2" />
-          <entry key="java" value="68" />
-          <entry key="properties" value="6" />
-          <entry key="xml" value="5" />
+          <entry key="html" value="4" />
+          <entry key="java" value="158" />
+          <entry key="properties" value="8" />
+          <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="HTML" value="2" />
-          <entry key="JAVA" value="68" />
+          <entry key="HTML" value="4" />
+          <entry key="JAVA" value="158" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="6" />
-          <entry key="XML" value="5" />
+          <entry key="Properties" value="8" />
+          <entry key="XML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="2903" />
+          <entry key="java" value="8603" />
           <entry key="properties" value="11" />
-          <entry key="txt" value="335" />
-          <entry key="xml" value="5" />
+          <entry key="txt" value="376" />
+          <entry key="xml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2903" />
-          <entry key="PLAIN_TEXT" value="337" />
+          <entry key="JAVA" value="8603" />
+          <entry key="PLAIN_TEXT" value="378" />
           <entry key="Properties" value="11" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="21" />
         </counts>
       </usages-collector>
     </session>
@@ -139,10 +158,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="153" column="49" lean-forward="true" selection-start-line="153" selection-start-column="49" selection-end-line="153" selection-end-column="49" />
+            <state relative-caret-position="4598">
+              <caret line="274" column="68" selection-start-line="274" selection-start-column="68" selection-end-line="274" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#7850#7851#0" expanded="true" />
+                <element signature="e#7906#7907#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/netty/ChatHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,20 +183,68 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/netty/WSServerInitialzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="18" column="113" selection-start-line="18" selection-start-column="113" selection-end-line="18" selection-end-column="113" />
+            <state relative-caret-position="133">
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/service/impl/UserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/pojo/ChatMsg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="175" column="49" selection-start-line="175" selection-start-column="49" selection-end-line="175" selection-end-column="49" />
+            <state relative-caret-position="190">
+              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/PigeonApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="25" selection-start-line="21" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UsersMapperCustom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/netty/HeartBeatHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="240" column="66" selection-start-line="240" selection-start-column="66" selection-end-line="240" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,6 +280,14 @@
       <find>myFriendUserId</find>
       <find>Date</find>
       <find>Date()</find>
+      <find>regist</find>
+      <find>Su</find>
+      <find>queryf</find>
+      <find>delete</find>
+      <find>passf</find>
+      <find>ChatMsg</find>
+      <find>myf</find>
+      <find>好友</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -207,23 +296,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/utils/MyMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mybatis/utils/GeneratorDisplay.java" />
-        <option value="$PROJECT_DIR$/src/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/netty/WSServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/NettyBooter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/netty/WSServerInitialzer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/netty/ChatHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/org/n3r/idworker/utils/Ip.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pigeon/org/n3r/idworker/DayCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pigeon/org/n3r/strategy/FileLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pigeon/org/n3r/idworker/WorkerIdStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pigeon/pojo/vo/UsersVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/PigeonApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/PigeonApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pigeon/mapper/UsersMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pigeon/mapper/MyFriendsMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pigeon/mapper/FriendsRequestMapper.java" />
@@ -244,11 +321,32 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/pigeon/utils/FileUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enums/SearchFriendsStatusEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pigeon/pojo/FriendsRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ChatMsgMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/FriendsRequestMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/MyFriendsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/pojo/vo/FriendRequestVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enums/OperatorFriendRequestTypeEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enums/MsgActionEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/netty/DataContent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/netty/ChatMsg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/SpringUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/pojo/ChatMsg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enums/MsgSignFlagEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/mapper/UsersMapperCustom.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UsersMapperCustom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/netty/UserChannelRel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/PigeonApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/pojo/vo/MyFriendsVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/netty/ChatHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/netty/HeartBeatHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/netty/WSServerInitialzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pigeon/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -258,10 +356,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="975" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -274,88 +372,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pigeon-dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: tk.mybatis:mapper:3.5.3" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: tk.mybatis:mapper:3.5.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="mapper-3.5.3.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: tk.mybatis:mapper:3.5.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="mapper-3.5.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="tk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: tk.mybatis:mapper:3.5.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="mapper-3.5.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="tk" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: tk.mybatis:mapper:3.5.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="mapper-3.5.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="tk" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pigeon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: tk.mybatis:mapper:3.5.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="mapper-3.5.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="tk" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -372,6 +394,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,9 +403,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="userid&#9;PSI&#9;JAVA://com.pigeon.pojo.vo.MyFriendsVO#getFriendUserid" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542547142475" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542721369891" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -394,16 +418,20 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Pigeon-dev\src\main\java\com\enums" />
-      <recent name="D:\Pigeon-dev\src\main\java\com\pigeon\utils" />
       <recent name="D:\Pigeon-dev\src\main\java\com" />
+      <recent name="D:\Pigeon-dev\src\main\resources" />
+      <recent name="D:\Pigeon-dev\src\main\java\com\pigeon\utils" />
       <recent name="E:\Pigeon-Dev\src\main\resources\js" />
-      <recent name="E:\Pigeon-Dev\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pigeon.netty" />
+      <recent name="com.pigeon.pojo.vo" />
+      <recent name="com.pigeon.mapper" />
       <recent name="com.pigeon.pojo.bo" />
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Pigeon-dev\src\main\resources" />
       <recent name="E:\Pigeon-Dev\src\main\resources" />
       <recent name="E:\Pigeon-Dev\src\main\java\com" />
     </key>
@@ -424,7 +452,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.11510792" />
+    <option name="contentProportion" value="0.14754099" />
   </component>
   <component name="RunManager" selected="Spring Boot.PigeonApplication">
     <configuration name="GeneratorDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -482,6 +510,10 @@
       <workItem from="1542416668250" duration="19123000" />
       <workItem from="1542460089653" duration="1073000" />
       <workItem from="1542521938585" duration="14632000" />
+      <workItem from="1542597514181" duration="644000" />
+      <workItem from="1542675315291" duration="18932000" />
+      <workItem from="1542717617418" duration="3617000" />
+      <workItem from="1542721348800" duration="256000" />
     </task>
     <task id="LOCAL-00001" summary="完成个人信息页面的后端开发。现在鸽信用户在注册成功时会获得唯一二维码。可以自定义昵称，头像。&#10;backend coding for user info page is completed. New pigeon users get unique Qrcode when signing up. All users can modify their nicknames and profile pics.">
       <created>1542530698256</created>
@@ -508,7 +540,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63615000" />
+    <option name="totallyTimeSpent" value="94519000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -520,7 +552,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -528,12 +560,12 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.31396958" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.19369973" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32998565" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50067025" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32340425" />
+      <window_info anchor="bottom" id="Messages" order="3" visible="true" weight="0.32340425" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32907802" />
       <window_info anchor="bottom" id="Spring" order="6" />
@@ -544,7 +576,7 @@
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" sideWeight="0.49932975" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.2826399" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.18723404" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Maven Projects" order="1" />
       <window_info anchor="right" id="Database" order="2" />
@@ -554,7 +586,7 @@
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.24896266" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,246 +599,14 @@
     <MESSAGE value="完成个人信息页面的后端开发。现在鸽信用户在注册成功时会获得唯一二维码。可以自定义昵称，头像。" />
     <MESSAGE value="完成个人信息页面的后端开发。现在鸽信用户在注册成功时会获得唯一二维码。可以自定义昵称，头像。&#10;backend coding for user info page is completed. New pigeon users get unique Qrcode when signing up. All users can modify their nicknames and profile pics." />
     <MESSAGE value="delete some useless file. will commit front end files soon. MUI works." />
-    <option name="LAST_COMMIT_MESSAGE" value="delete some useless file. will commit front end files soon. MUI works." />
+    <MESSAGE value="完成通讯录，发现页面，以及聊天业务开发。鸽信1.00完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成通讯录，发现页面，以及聊天业务开发。鸽信1.00完成" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/PigeonApplication.java</url>
-          <line>14</line>
-          <properties class="com.PigeonApplication" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/NettyBooter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/mapper/FriendsRequestMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/utils/myc_problem.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/utils/PigeonJSONResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyMethodProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="120" column="69" selection-start-line="120" selection-start-column="69" selection-end-line="120" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/打机/myc_problem.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Java EE/Download/spring-in-action-5-samples-master/spring-in-action-5-samples-master/ch02/tacos/src/main/java/tacos/Ingredient.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/css/mui.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/js/mui.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/新建文件夹 (2)/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="108" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/utils/GeneratorDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.2.RELEASE/spring-web-5.1.2.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.2.RELEASE/spring-test-5.1.2.RELEASE-sources.jar!/org/springframework/mock/web/MockMultipartFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12-sources.jar!/org/apache/coyote/AbstractProcessorLight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/新建文件夹 (2)/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/src/main/java/com/imooc/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
-          <caret line="107" column="13" selection-start-line="95" selection-start-column="4" selection-end-line="118" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/新建文件夹 (2)/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/src/main/java/com/imooc/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4541">
-          <caret line="260" column="1" selection-start-line="110" selection-start-column="4" selection-end-line="260" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Pigeon-Dev/Pigeon-dev/src/main/java/com/pigeon/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="53" selection-start-line="53" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.2/fastdfs-client-1.26.2.jar!/com/github/tobato/fastdfs/service/FastFileStorageClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/pojo/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1843">
-          <caret line="125" column="28" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="28" />
-          <folding>
-            <element signature="e#2084#2085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/猛男项目/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/src/main/java/com/imooc/utils/FastDFSClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="14" lean-forward="true" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/猛男项目/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/src/main/java/com/imooc/FastdfsImporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="1" lean-forward="true" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/utils/MyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/FastdfsImporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/猛男项目/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/src/main/java/com/imooc/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="101" column="8" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="106" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/pojo/bo/UsersBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/utils/FastDFSClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1425">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/login.html" />
     <entry file="file://$PROJECT_DIR$/Niko">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/PigeonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/utils/QRCodeUtils.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -825,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-296">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/enums/SearchFriendsStatusEnum.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -846,23 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2660">
           <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/pojo/MyFriends.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -870,10 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1436">
           <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
-          <folding>
-            <element signature="e#6390#6391#0" expanded="true" />
-            <element signature="e#6438#6439#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,50 +659,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/猛男项目/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/src/main/java/com/imooc/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/FriendsRequestMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="191" column="45" selection-start-line="191" selection-start-column="45" selection-end-line="191" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MyFriendsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ChatMsgMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/pojo/vo/UsersVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/utils/GeneratorDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/pojo/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="103" column="7" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/猛男项目/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/src/main/java/com/imooc/pojo/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://E:/猛男项目/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/src/main/java/com/imooc/pojo/FriendsRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
+        <state relative-caret-position="1216">
           <caret line="78" column="4" lean-forward="true" selection-start-line="78" selection-start-column="4" selection-end-line="80" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/猛男项目/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/src/main/java/com/imooc/mapper/UsersMapperCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/猛男项目/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/src/main/java/com/imooc/pojo/vo/FriendRequestVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/猛男项目/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/src/main/java/com/imooc/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="103" column="8" lean-forward="true" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/pojo/vo/FriendRequestVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enums/OperatorFriendRequestTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/猛男项目/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/src/main/java/com/imooc/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="205" column="34" selection-start-line="205" selection-start-column="34" selection-end-line="205" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/pojo/MyFriends.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/pojo/FriendsRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enums/MsgActionEnum.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/猛男项目/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/src/main/java/com/imooc/netty/ChatMsg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="175" column="49" selection-start-line="175" selection-start-column="49" selection-end-line="175" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/SpringUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/猛男项目/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/src/main/java/com/imooc/pojo/ChatMsg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="153" column="49" lean-forward="true" selection-start-line="153" selection-start-column="49" selection-end-line="153" selection-end-column="49" />
+        <state relative-caret-position="133">
+          <caret line="7" column="7" lean-forward="true" selection-end-line="136" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enums/MsgSignFlagEnum.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/netty/UserChannelRel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -939,8 +813,179 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="-653">
           <caret line="18" column="113" selection-start-line="18" selection-start-column="113" selection-end-line="18" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/netty/WSServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/猛男项目/03 NettySpringboot仿微信聊天全栈实战 从0开发到上线部署/资料/coding-261-master/coding-261/后端/imooc-muxin-netty/src/main/java/com/imooc/netty/ChatHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/mapper/UsersMapperCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/pojo/vo/MyFriendsVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/netty/ChatMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/netty/DataContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4598">
+          <caret line="274" column="68" selection-start-line="274" selection-start-column="68" selection-end-line="274" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7850#7851#0" expanded="true" />
+            <element signature="e#7906#7907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/PigeonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" selection-start-line="21" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UsersMapperCustom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/netty/HeartBeatHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/netty/WSServerInitialzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/pojo/ChatMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="240" column="66" selection-start-line="240" selection-start-column="66" selection-end-line="240" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pigeon/netty/ChatHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
